@@ -1,0 +1,4 @@
+chemokine_list = ['CCL2', 'CCL3', 'CCL4', 'CCL20', 'CCL26', 'CCL28', 'CXCL1', 'CXCL2', 'CXCL3', 
+                  'CXCL6', 'CXCL8', 'CXCL10', 'CXCL14', 'CCL26']
+
+adataR = adata[:, chemokine_list]
